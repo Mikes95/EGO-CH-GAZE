@@ -1,6 +1,28 @@
 # EGO-CH-GAZE
-This is the official github repository related to the "Learning to Detect Attended Objects in Cultural Sites with Gaze Signals and Weak Object Supervision"
+
+![Add an Image Here](./img/back.jpg) <!-- Replace "link_to_image.png" with the actual image URL or file path -->
+
+Welcome to the official GitHub repository for "Learning to Detect Attended Objects in Cultural Sites with Gaze Signals and Weak Object Supervision."
+
+## Overview
+
+To address the challenging problem of attended object detection in cultural sites, we have curated a unique dataset of egocentric images captured by subjects while visiting cultural sites. These images offer a glimpse into the visual experiences of museum-goers and come equipped with labels for artworks and objects that have captured the subjects' attention.
+
+In our work, we present two innovative approaches for attended object detection at various weakly supervised levels. These approaches strike a balance between performance and the amount of supervision required, as demonstrated by our experiments. Specifically, we introduce:
+
+### Box Coordinates Regressor
+
+- Code can be found in the `/code/BBox_regressor` directory.
+- This code loads a ResNet model, preprocesses data, and trains a deep learning model for gaze estimation using a Gaussian-based approach. This approach is particularly effective when bounding boxes around attended objects are available for training.
+
+### Fully Convolutional Attended Object Detection
+
+For a detailed explanation of this method, please visit our companion repository at [https://github.com/fpv-iplab/WS-Attended-Object-Detection](https://github.com/fpv-iplab/WS-Attended-Object-Detection).
+
+### Unsupervised Methods
+
+You can explore our unsupervised methods by examining the code in the `/code/Unsupervised` directory. This directory contains various scripts for performing inference using SAM, InSPyReNet, and U-2-Net, all of which offer unique insights into attended object detection without the need for extensive supervision.
 
 
-To study the problem of attended object detection in cultural sites, we collected and labeled a dataset of egocentric images acquired from subjects visiting a cultural site. The dataset has been designed to offer a snapshot of the subject’s visual experience while visiting a museum and contains labels for several artworks and details attended by the subjects.
-We propose two new approaches to tackle attended object detection at the different weakly supervised levels, which offer the best trade-off in terms of performance and needed amount of supervision, as shown in our experiments. Specifically, we propose a box coordinates regressor algorithm which can be trained when bounding boxes around attended objects are available and a weakly supervised attended object detection approach which can be used when only the attended object class is available as a form of supervision
+
+

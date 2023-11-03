@@ -21,8 +21,7 @@ For a detailed explanation of this method, please visit our companion repository
 
 ### Unsupervised Methods
 
-You can explore our unsupervised methods by examining the code in the `/code/Unsupervised` directory. This directory contains various scripts for performing inference using SAM, InSPyReNet, and U-2-Net, all of which offer unique insights into attended object detection without the need for extensive supervision.
-
+You can explore our unsupervised methods by examining the code in the `/code/Unsupervised` directory. This directory contains various scripts for performing inference using SAM, InSPyReNet, and U-2-Net.
 
 
 

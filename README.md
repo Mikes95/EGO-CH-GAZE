@@ -25,3 +25,24 @@ You can explore our unsupervised methods by examining the code in the `/code/Uns
 
 
 
+## Cite us
+
+If you find our work useful, please cite the following paper:
+
+```bibtex
+@article{10.1145/3647999,
+author = {Mazzamuto*, Michele and Ragusa*, Francesco and Furnari*, Antonino and Farinella*, Giovanni Maria},
+title = {Learning to Detect Attended Objects in Cultural Sites with Gaze Signals and Weak Object Supervision},
+year = {2024},
+issue_date = {September 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {17},
+number = {3},
+issn = {1556-4673},
+url = {https://doi.org/10.1145/3647999},
+doi = {10.1145/3647999},
+articleno = {35},
+numpages = {21},
+keywords = {Cultural sites, wearable devices, gaze, object detection}
+}
